@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: #007aff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: white;
+  color: #222;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.header__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  vertical-align: middle;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header__title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.header__subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 30px;
+  text-align: center;
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.section-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.hobbies {
+  color: #222;
+  border-radius: 8px;
+}
+
+.hobbies,
+.hobbies__list {
+  background-color: white;
+}
+
+.contacts__list,
+.hobbies__list,
+.skills__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contacts__list .contact-link,
+.hobbies__list li,
+.skills__list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-link,
+.hobby-item,
+.skill-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-dot,
+.hobby-dot,
+.skill-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #007aff;
+  margin-right: 10px;
+  margin-top: 2px; /* Добавлено для вертикального центрирования точки */
+  display: inline-block; /* Добавлено для горизонтального выравнивания точки */
+}
+
+.contacts__list .contact-link {
+  text-align: center; /* Изменено для выравнивания текста по центру */
+  justify-content: center; /* Добавлено для горизонтального центрирования */
+}
+
+.contacts__list .contact-link span {
+  color: #007aff; /* Добавлено для синего цвета слов "@shuragan63", "kosongov96@mail.ru" и "github.com/shuragan" */
+}
+
+footer {
+  background-color: white;
+  color: #222;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.button-link {
+  display: inline-block;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
+
+/* Анимация заголовков */
+.section-header {
+  animation: fadeIn 1s ease-in-out both;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: #007aff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: white;
+  color: #222;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.header__avatar {
+  width: 150px

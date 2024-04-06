@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="normalize.css" rel="stylesheet" />
+  <link href="ios.css" rel="stylesheet" />
+  <title>Александр Косонгов | QA-инженер</title>
+  
+ <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(96954219, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/96954219" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <img src="avatar.png" alt="Александр Косонгов" class="header__avatar" />
+      <div class="header__textContainer">
+        <h1 class="header__title">Александр Косонгов</h1>
+        <h3 class="header__subtitle">QA-инженер</h3>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="about">
+      <h2 class="section-header">Обо мне</h2>
+      <p>Привет! Меня зовут Александр, мне 27 и я QA-инженер. Моя цель - обеспечить высокое качество продукта и удовлетворенность пользователя.</p>
+    </section>
+
+    <section class="contacts">
+      <h2 class="section-header">Контакты</h2>
+      <ul class="contacts__list">
+        <li>
+          <a href="@shuragan63" class="contact-link">Telegram: @shuragan63</a>
+        </li>
+        <li>
+          <a href="mailto:kosongov96@mail.ru" class="contact-link">Почта: kosongov96@mail.ru</a>
+        </li>
+        <li>
+          <a href="https://github.com/shuragan" class="contact-link">GitHub: github.com/shuragan</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="hobbies">
+      <h2 class="section-header">Интересы</h2>
+      <ul class="hobbies__list">
+        <li class="hobby-item">
+          <div class="hobby-dot"></div>
+          Спорт: тренажерный зал, бокс
+        </li>
+        <li class="hobby-item">
+          <div class="hobby-dot"></div>
+          Инвестиции и финансовая грамотность: инвестирую с 2020 года, веду личный бюджет
+        </li>
+        <li class="hobby-item">
+          <div class="hobby-dot"></div>
+          Читаю: научно-популярную литературу
+        </li>
+      </ul>
+    </section>
+
+    <section class="skills">
+      <h2 class="section-header">Навыки и технологии</h2>
+      <ul class="skills__list">
+        <li class="skill-item">
+          <div class="skill-dot"></div>
+          Developer Tools (для тестирования front-end)
+        </li>
+        <li class="skill-item">
+          <div class="skill-dot"></div>
+          PostgreSQL и MongoDB (работа с базами данных)
+        </li>
+        <li class="skill-item">
+          <div class="skill-dot"></div>
+          REST-API, SOAP (тестирование обмена данными)
+        </li>
+        <li class="skill-item">
+          <div class="skill-dot"></div>
+          PostgreSQL и MongoDB(Просмотр данных в БД и написание SQL-запросов)
+        </li>
+        <li class="skill-item">
+          <div class="skill-dot"></div>
+          Figma(Тестирование user-interface front-end)
+        </li>
+        <li class="skill-item">
+          <div class="skill-dot"></div>
+          HTML, CSS (Тестирование front-end)
+        </li>
+        <li class="skill-item">
+          <div class="skill-dot"></div>
+          Kibana, Grafana(Умение работать с логами)
+        </li>
+        <li class="skill-item">
+          <div class="skill-dot"></div>
+          Charles(Тестирование front-end / back-end)
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <button type="button" class="button-link">Связь со мной</button>
+  </footer>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const telegramLink = 'https://t.me/shuragan63';
+    const buttonLink = document.querySelector('.button-link');
+
+    buttonLink.addEventListener('click', () => {
+      window.open(telegramLink, '_blank');
+    });
+  });
+</script>
+</body>
+
+</html>
